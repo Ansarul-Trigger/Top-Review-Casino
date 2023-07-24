@@ -1,0 +1,149 @@
+@media screen and (max-width: 980px) { 
+	.clinic-column p a { clear: left; }
+}
+@media screen and (max-width: 940px) { 
+	.right-header { padding-left: 50px; }
+	.view-btn a { font-size: 20px; }
+}
+@media screen and (max-width: 840px) { 
+	.right-header { padding-left: 10px; }
+	.mainnav ul li { margin: 0 5px; }
+	.clinic-column h3 { font-size: 20px;}
+	.clinic-column h4 { font-size: 22px; }
+	.dt-container .main-con-lft {
+		padding: 0 300px 0 10px;
+	}
+	.dt-container .sidebar { width: 280px;}
+}
+@media screen and (max-width: 767px) { 
+	.mainnav { display: none; }	
+	#header { padding: 20px 10px 20px 10px; }
+	.banner-mobile-content{
+		display: block;
+	}
+	.banner-default-content{
+		display: none;
+	}
+	.header-container .banner-content { max-width:65% }
+	.banner-content h2,
+	.banner-content h1,
+	.banner-content h2.banner-large-title{ font-size: 34px; }
+	.banner-content { padding: 0 10px 20px 10px; }
+	.main-con-lft { margin-right: 0;}
+	.main-con-area:before,
+	.main-con-area:after { display: none; /*right: 0;*/ }
+	.main-con-area { 
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex; 
+		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+	}
+	.sidebar {
+		width: 100%;
+		float: none;
+		padding: 25px 15px;
+		-webkit-order: 2;
+		-moz-order: 2;
+		-ms-order: 2;
+		-o-order: 2;
+		order: 2;
+	}
+	.main-con-lft {
+		-webkit-order: 1;
+		-moz-order: 1;
+		-ms-order: 1;
+		-o-order: 1;
+		order: 1;
+		width: 100%;
+	}
+	.sidebar { width: 100%; float: none; padding: 25px 15px; }
+	.sidebar h3 { padding-bottom: 10px; }
+	.sidebar-widget p { padding-bottom: 13px; }
+	.sidebar-widget { padding-bottom: 10px; }
+	.dt-container .main-con-lft {
+		padding: 20px 10px 0 10px;
+	}
+	.dt-container .sidebar { width: 100%; float: none;}
+	.weight-box-info {
+	    padding: 10px;
+	    margin-bottom: 15px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.page-template-template-home .banner-content .banner-large-title,
+	.page-template-template-meal-delivery-plans .banner-content .banner-large-title{
+		display: none;
+	}
+
+	.header-container .center-content{ min-height: 180px; }
+	.main-con-lft .banner-content{
+		display: block;
+		padding-bottom: 0;
+	}
+	.main-con-lft .banner-content .banner-large-title{ display: block; }
+	.main-con-lft .banner-content h1{ padding-top: 17px; }
+	.clinic-di-row { display: block; padding-bottom: 10px;}
+	.clinic-column h4 { right: 10px; top: 15px; font-size: 32px;}
+	.clinic-column,
+	.mayo-column,
+	.clinic-plan {
+		width: 100%; padding: 0 10px 15px 10px; 
+	}
+	.view-btn,
+	.mayo-img img { margin: 0;}
+	.view-btn {max-width: 100%; !important;}
+	/*.clinic-column h3 { display: none; }*/
+	.clinic-column ul { display: none; }
+	.mayo-img { max-width: 140px;}
+	.blog-img .mayo-img { max-width: initial;}
+	.entry-content ol li { padding-left: 2px; }
+	.entry-content h3 { font-size: 20px; }
+	.entry-content ol li,
+	.entry-content ul li { padding-bottom: 8px; }
+	.footer-area { padding: 20px 10px; }
+	.footer-area ul { padding: 8px; }
+	.footer-area p br { display: none; }
+	.wgt-box-logo strong { font-size: 30px;}
+	.weight-box .star { padding-top: 6px; }
+	.scr-img { padding-bottom: 12px; }
+}
+@media screen and (max-width: 580px) { 
+	.banner-content h2,
+	.banner-content h1,
+	.banner-content h2.banner-large-title{ font-size: 28px; }
+	.banner-content p {
+	    font-size: 20px;
+	    line-height: 23px;
+	    padding-bottom: 14px;
+	}
+}
+@media screen and (max-width: 480px) { 
+	#header { padding: 10px 5px;}
+	.header-container .banner-content { max-width:90% }
+	.banner-mobile-content {width: 140px;}
+	.banner-mobile-content p{font-size: 400px;}
+	.header-container .banner-content {padding-top: 3px;}
+	.logo { max-width: 220px; }
+	.banner-content h1,
+	.banner-large-title{ padding-bottom: 10px; }
+	.banner-content h1,
+	.banner-content h2.banner-large-title{ font-size: 24px; }
+	.banner-content h2 {font-size: 27px;}
+	.banner-content p {
+	    font-size: 20px;
+	    line-height: 27px;
+	}
+	.dt-btn,
+	.dt-btn a {
+		min-width: 250px;	
+	}
+	 div.wpcf7 .input-field .ajax-loader{
+        right: 15%;
+    }
+}
+@media screen and (max-width: 350px) {
+	.main-con-lft .banner-content h1{ font-size: 22px !important; }
+}
